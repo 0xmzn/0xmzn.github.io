@@ -3,6 +3,8 @@ body {
   color: #E4F1F0;
   margin: 0;
   padding: 0;
+  font-family: 'JetBrains Mono';
+  font-size: 18px;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -39,7 +41,7 @@ nav {
 }
 
 .navbar li a {
-  color: #C3E88D;
+  color: #C792EA;
   font-weight: bold;
   list-style-type: georgian;
 }
@@ -72,13 +74,6 @@ nav {
 h2 {
   margin-top: 0;
   font-style: italic;
-}
-
-.intro h2 {
-  color: #82AAFF;
-}
-
-.content h2 {
   color: #C792EA;
 }
 
@@ -98,7 +93,7 @@ footer {
 
 @media (min-width: 1000px) {
   .container {
-    width: 40vw;
+    width: 50vw;
   }
 }
 
