@@ -54,6 +54,11 @@ nav {
 }
 
 .content {
+  padding: 10px;
+  background-color: #27292A;
+}
+
+.bottom {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -72,7 +77,7 @@ nav {
   background-color: #27292A;
 }
 
-h1 {
+h1,h2,h3 {
   margin-top: 0;
   font-style: italic;
   color: #C792EA;
