@@ -1,135 +1,73 @@
 body {
-  background-color: #212121;
-  color: #E4F1F0;
-  margin: 0;
-  padding: 0;
-  font-family: 'JetBrains Mono';
-  font-size: 18px;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
+    margin: 0;
+	font-family: 'JetBrains Mono';
+    background-color: #161616;
+    color: #d4d4d4;
 }
 
 .container {
-  padding: 20px;
-  box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+	color: #be95ff;
 }
 
 a {
-  color: #89DDFF;
+    color: #be95ff;
+    text-decoration: none;
 }
 
-nav {
-  background-color: #27292A;
-  color: #fff;
-  padding: 10px 0;
-  margin-bottom: 1em;
+a:visited {
+    color: #646464;
 }
 
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+header a {
+    text-decoration: none;
+	color: #be95ff;
 }
 
-.navbar li {
-  display: inline;
-  margin: 0 20px;
+header a:visited {
+	color: #be95ff;
 }
 
-.navbar li a {
-  color: #C792EA;
-  font-weight: bold;
-  list-style-type: georgian;
-  text-decoration: none;
+p {
+	margin: 0;
 }
 
-.intro {
-  padding: 10px;
-  background-color: #27292A;
-  margin-bottom: 20px;
+h2, h3, h4, h5 {
+	color: #be95ff;
+	margin-bottom: 5px;
+	margin-top: 20px;
 }
 
-.content {
-  padding: 10px;
-  background-color: #27292A;
+ul {
+    list-style-type: none;
+	padding-left: 15px;
 }
 
-.bottom {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+li:before {
+    content: '-';
+    margin-right: 3px;
+    color: #646464;
 }
 
-.latest-logs {
-  flex: 1;
-  padding: 20px;
-  margin-right: 20px;
-  background-color: #27292A;
-}
-
-.contacts {
-  flex: 1;
-  padding: 20px;
-  background-color: #27292A;
-}
-
-h1,h2,h3 {
-  margin-top: 0;
-  font-style: italic;
-  color: #C792EA;
+main {
+    padding: 20px;
 }
 
 .neon-text {
-  color: #fff;
   text-shadow:
-    0 0 5px #525354,
-    0 0 7px #525354,
-    0 0 1px #525354,
-    0 0 1px #C792EA,
-    0 0 1px #C792EA,
-    0 0 1px #C792EA,
-    0 0 6px #C792EA,
-    0 0 2px #C792EA;
-}
-
-footer {
-  text-align: center;
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #27292A;
-}
-
-.footer-svg {
-  width: 1em;
-  display: inline;
-  vertical-align: bottom;
-  position: relative;
-}
-
-@media (min-width: 1000px) {
-  .container {
-    width: 50vw;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 1000px) {
-  .container {
-    width: 70vw;
-  }
-}
-
-@media (max-width: 800px) {
-  .container {
-    width: 95vw;
-    padding: 5px;
-  }
-
-  .navbar li {
-    display: inline;
-    margin: 0 5vw;
-  }
+    0 0 5px #000000,
+    0 0 7px #000000,
+    0 0 1px #000000,
+    0 0 4px #be95ff,
+    0 0 1px #be95ff,
+    0 0 1px #be95ff,
+    0 0 6px #be95ff,
+    0 0 1px #be95ff;
 }
